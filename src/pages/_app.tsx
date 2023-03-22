@@ -100,19 +100,6 @@ function App({ Component, pageProps }: AppProps) {
 
         if (registration.installing) {
 
-
-          registration.addEventListener("updatefound", event => {
-
-            const newSW = registration.installing;
-
-            newSW?.addEventListener("statechange", event => {
-              if (newSW.state == "installed") {
-                // New service worker is installed, but waiting activation
-              }
-            });
-
-          });
-
           console.log("Service worker installing");
 
         } else if (registration.waiting) {
