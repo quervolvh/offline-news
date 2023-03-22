@@ -48,12 +48,11 @@ export const FullHeader: React.FC<Props> = ({ addRecordTrigger, revealRecords })
 
                 <div className="landingLayout-header-left">
 
-                    <Link
-                        href={"*"}
-                    >
+                    <a onClick={(e) => e?.preventDefault()}>
+
                         <img src={"svg/boldo-dual.svg"} alt={"boldo"} />
 
-                    </Link>
+                    </a>
 
                 </div>
 
