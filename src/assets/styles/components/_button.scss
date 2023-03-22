@@ -20,7 +20,9 @@
   font-weight: 600;
   color: color(white);
   transition-duration: 0.2s;
-  transition-property: color, background, transform;
+  transition-property: color,
+  background,
+  transform;
   transition-timing-function: ease;
 
   &-title {
@@ -97,7 +99,8 @@
 
     &:hover,
     &:focus {
-      background: color(primary);
+      background: yellow;
+      color: color(primary);
     }
   }
 

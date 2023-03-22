@@ -1,7 +1,7 @@
 try {
 
     const addResourcesToCache = async (resources) => {
-        const cache = await caches.open("v2");
+        const cache = await caches.open("v0");
         await cache.addAll(resources);
     };
 

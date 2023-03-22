@@ -8,8 +8,6 @@ export const FullHeader: React.FC<Props> = ({ addRecordTrigger, revealRecords })
 
     const scrollListener = () => {
 
-        console.log(window.screenY)
-
         if (window.scrollY > 150 && window.screenY < 180) {
 
             document?.getElementsByClassName?.("landingLayout-header")?.[0]?.classList?.add("header-stick-to-background");
