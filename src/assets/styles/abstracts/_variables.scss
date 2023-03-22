@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #0A2640;
+}
+
+$colors: (
+  primary: #0A2640
+);
+
+$colors: (
+  primary: #0A2640,
+  secondary-text: #777777,
+  tertiary-text:  #F1F1F1,
+  green: #65E4A3,
+  red: #ea3223,
+  white: #ffffff,
+  footer: #18191f,
+  footer-icon-bg: #303135,
+  footer-text: #777777,
+  dark: rgba(0, 0, 0, 1),
+  black_: rgba(0,0,0,1),
+  faux-blue: rgba(22, 22, 168, 0.814),
+  input-border:  #C4C4C4,
+  input-bg: #f3f3f3,
+  input-placeholder: rgba(185, 185, 185, 1),
+  modal-overlay: rgba(0, 0, 0, 0.2),
+  success: rgba(75, 222, 151, 1),
+  empty-item: rgba(241, 90, 1, 0.5)
+);
+
+$shadows: (
+  card: 0 16px 24px rgba(0, 0, 0, 0.06) 0 2px 6px rgba(0, 0, 0, 0.04) 0 0 1px rgba(0, 0, 0, 0.04)
+);
+
+$header-shadow: 0 16px 24px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.04), 0 0 1px rgba(0, 0, 0, 0.04);
+
+$main-font: 'Open Sans', sans-serif;
+$header-font: 'Manrope', sans-serif;
+$aux-font: 'Manrope', sans-serif;
+
+$default-font-size: 14px;
+
+$inputBorder: 1px solid map-get($colors, input-bg);
+
+$checkBoxBorder: 1px solid rgba(0, 0, 0, 0.1);
+
+$normal-font-sizes: (
+  xx-small: 9px,
+  x-small: 12px,
+  small: 14px,
+  regular: 16px,
+  medium: 18px,
+  p-large: 20px,
+  large: 22.5px,
+  l-large: 24px,
+  m-large: 26px,
+  n-large: 28px,
+  x-large: 36px,
+  xx-large: 40px,
+  xxx-large: 48px
+);
+
+$small-font-sizes: (
+  xx-small: 8px,
+  x-small: 10px,
+  small: 12.5px,
+  regular: 14px,
+  medium: 16px,
+  p-large: 18px,
+  large: 20.5px,
+  l-large: 22.5px,
+  m-large: 25.5px,
+  n-large: 26.5px,
+  x-large: 29.5px,
+  xx-large: 32px,
+  xxx-large: 37px
+);
+
+$small-tab-font-sizes: (
+  xx-small: 7px,
+  x-small: 9px,
+  small: 11px,
+  regular: 12.5px,
+  medium: 14px,
+  p-large: 16px,
+  large: 17.5px,
+  l-large: 22px,
+  m-large: 21px,
+  n-large: 22.5px,
+  x-large: 24px,
+  xx-large: 30px,
+  xxx-large: 37px
+);
+
+$font-weights: (
+  extra-light: 200,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  black: 900
+);

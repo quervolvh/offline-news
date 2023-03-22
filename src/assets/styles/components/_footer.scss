@@ -1,0 +1,47 @@
+.footer {
+  color: color(footer-text);
+
+  &-link {
+    @include font-size(p-large);
+    display: block;
+
+  }
+
+  &-icon-set {
+    display: flex;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      padding: 0;
+      width: 25px;
+      height: 25px;
+      background: rgba(0, 0, 0, 0.1);
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  p,
+  a {
+    margin-bottom: 30px;
+    line-height: 32px;
+  }
+
+
+  h1 {
+    @include font-size(large);
+    margin-bottom: 31px;
+    color: color(black_);
+  }
+}

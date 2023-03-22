@@ -1,0 +1,35 @@
+.lets-animate {
+
+  transform: translate(0, 100px);
+  transition: 2s ease;
+
+}
+
+.lets-animate-opacity {
+
+  opacity: 0.5;
+  transform: translate(0, 10px);
+  transition: 1s ease;
+
+}
+
+.lets-max-animate-opacity {
+
+  opacity: 0;
+  transform: translate(0, 10px);
+  transition: 3s ease;
+
+}
+
+.opacity-secured {
+
+  opacity: 1;
+
+}
+
+.transition-reveal {
+
+  opacity: 1;
+  transform: translate(0, 0);
+
+}
