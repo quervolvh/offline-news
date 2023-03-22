@@ -116,7 +116,7 @@ function App({ Component, pageProps }: AppProps) {
 
     }
 
-    // reg();
+    reg();
 
     // eslint-disable-next-line
   }, []);
